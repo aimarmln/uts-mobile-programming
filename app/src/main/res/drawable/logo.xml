@@ -1,0 +1,62 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="1200dp"
+    android:height="800dp"
+    android:viewportWidth="78"
+    android:viewportHeight="90">
+
+  <!-- Siluet Orang 1 -->
+  <path
+      android:pathData="M20,60C20,55 30,55 30,60L30,75L20,75Z">
+    <aapt:attr name="android:fillColor">
+      <gradient
+          android:startX="20"
+          android:startY="75"
+          android:endX="30"
+          android:endY="55"
+          android:type="linear">
+        <item android:offset="0.0" android:color="#FF0095D5"/>
+        <item android:offset="1.0" android:color="#FF238AD9"/>
+      </gradient>
+    </aapt:attr>
+  </path>
+  <path
+      android:pathData="M25,50a5,5 0 1,0 10,0a5,5 0 1,0 -10,0"/>
+
+  <!-- Siluet Orang 2 -->
+  <path
+      android:pathData="M40,60C40,55 50,55 50,60L50,75L40,75Z">
+    <aapt:attr name="android:fillColor">
+      <gradient
+          android:startX="40"
+          android:startY="75"
+          android:endX="50"
+          android:endY="55"
+          android:type="linear">
+        <item android:offset="0.0" android:color="#FF557BDE"/>
+        <item android:offset="1.0" android:color="#FF7472E2"/>
+      </gradient>
+    </aapt:attr>
+  </path>
+  <path
+      android:pathData="M45,50a5,5 0 1,0 10,0a5,5 0 1,0 -10,0"/>
+
+  <!-- Siluet Orang 3 -->
+  <path
+      android:pathData="M60,60C60,55 70,55 70,60L70,75L60,75Z">
+    <aapt:attr name="android:fillColor">
+      <gradient
+          android:startX="60"
+          android:startY="75"
+          android:endX="70"
+          android:endY="55"
+          android:type="linear">
+        <item android:offset="0.0" android:color="#FFEE7E2F"/>
+        <item android:offset="1.0" android:color="#FFF58613"/>
+      </gradient>
+    </aapt:attr>
+  </path>
+  <path
+      android:pathData="M65,50a5,5 0 1,0 10,0a5,5 0 1,0 -10,0"/>
+
+</vector>
